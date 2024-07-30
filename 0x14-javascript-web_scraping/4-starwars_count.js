@@ -3,7 +3,7 @@
 const request = require('request');
 const charId = '18';
 const apiUrl = process.argv[2];
-let count = 3;
+let count = 0;
 
 request(apiUrl, (error, response, body) => {
   if (error) {
